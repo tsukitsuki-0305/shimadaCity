@@ -215,8 +215,10 @@ nav ul li a:hover {
 	align-items: center;
 	padding-left: 2rem;
 	background-color: #EEFAFF;
+}
 
-	@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
+	.header {
 		padding-left: 1rem;
 	}
 }
