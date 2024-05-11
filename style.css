@@ -7,16 +7,16 @@
 
 body {
 	margin: 0;
-    padding: 0;
-	font-family: 'klee','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
-}
-#container{
-	width: 800px;
-	margin:0 auto;
-	border-top:7px solid #97eaff;
+	padding: 0;
+	font-family: 'klee', 'Yu Mincho Light', 'YuMincho', 'Yu Mincho', '游明朝体', 'ヒラギノ明朝 ProN', 'Hiragino Mincho ProN', sans-serif;
 }
 
-#map{
+#container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+#map {
 	border: 0.5px solid #492917;
 	width: 614.4px;
 	height: 452.8px;
@@ -24,7 +24,7 @@ body {
 	text-align: center;
 }
 
-#pic{
+#pic {
 	text-align: center;
 }
 
@@ -34,22 +34,22 @@ body {
   Text Module
 ---------------------------------------*/
 h1 {
-	font-size:230%;
-	text-align:center;
+	font-size: 230%;
+	text-align: center;
 	padding-top: 90px;
-	
+
 }
 
 
 h2 {
-	margin-top:50px;
-	margin-bottom:20px;
-	padding:5px 15px;
-    background:rgb(255, 246, 235);
-    border-left: rgb(255,0,0) 8px solid;
-    font-size: 160%;
-    font-weight: bold;
-    
+	margin-top: 50px;
+	margin-bottom: 20px;
+	padding: 5px 15px;
+	background: rgb(255, 246, 235);
+	border-left: rgb(255, 0, 0) 8px solid;
+	font-size: 160%;
+	font-weight: bold;
+
 }
 
 
@@ -69,7 +69,8 @@ table {
 	margin: 1rem 3rem;
 }
 
-th, td {
+th,
+td {
 	border: thin ridge #2f4f4f;
 	padding: 0.1rem 0.5rem;
 }
@@ -82,7 +83,7 @@ th {
 p {
 	padding: 1rem 2rem;
 	line-height: 1.8rem;
-	
+
 }
 
 ol {
@@ -90,7 +91,7 @@ ol {
 }
 
 ul {
-    padding: 1rem 4rem;
+	padding: 1rem 4rem;
 }
 
 
@@ -107,18 +108,18 @@ a {
 }
 
 a:link {
-	color:#36f;
-	text-decoration:none;
+	color: #36f;
+	text-decoration: none;
 }
 
 a:visited {
-	color:#669;
-	text-decoration:none;
+	color: #669;
+	text-decoration: none;
 }
 
 a:hover {
-	color:rgb(255, 144, 53);
-	text-decoration:underline;
+	color: rgb(255, 144, 53);
+	text-decoration: underline;
 }
 
 
@@ -129,60 +130,61 @@ a:hover {
 ---------------------------------------*/
 
 
-nav{
-	height:36px;
-	margin-bottom:10px;
-	padding:0px;
+nav {
+	height: 36px;
+	margin-bottom: 10px;
+	padding: 0px;
 	border-bottom: #000 1px solid;
 	border-top: #000 1px solid;
 }
 
-nav h2{
+nav h2 {
 	display: none;
 }
 
-nav ul{
-	height:auto;
-	margin:0;
-	padding:0;
-	line-height:130%;
-	list-style-type:none;
+nav ul {
+	height: auto;
+	margin: 0;
+	padding: 0;
+	line-height: 130%;
+	list-style-type: none;
 }
 
 
-nav ul li{
-	margin:0;
-	padding:0;
-	float:left;
-	width:160px;
-	text-align:center;
-	font-size:14px;
+nav ul li {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 160px;
+	text-align: center;
+	font-size: 14px;
 }
 
-nav ul li a{
-	padding:8px 20px;
-	display:block;
-	position:relative;
-	color:rgb(0, 0, 0);
-	background-color:rgb(255, 255, 255);
-	text-decoration:none;
+nav ul li a {
+	padding: 8px 20px;
+	display: block;
+	position: relative;
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	text-decoration: none;
 	transition: 0.75s
 }
 
-nav ul li a:link{
-	color:rgb(0, 0, 0);
-	text-decoration:none;
+nav ul li a:link {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
 }
 
-nav ul li a:visited{
-	color:rgb(0, 0, 0);
-	text-decoration:none;
+nav ul li a:visited {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
 }
-nav ul li a:hover{
-	border-color:#699;
-	color:#333;
-	background-color:rgb(255, 210, 134);
-	text-decoration:none;
+
+nav ul li a:hover {
+	border-color: #699;
+	color: #333;
+	background-color: rgb(255, 210, 134);
+	text-decoration: none;
 }
 
 
@@ -192,7 +194,8 @@ nav ul li a:hover{
 .menu ul {
 	height: 1px;
 	min-height: 1px;
-	/*¥*//*/
+	/*¥*/
+	/*/
 	height: 1px;
 	overflow: hidden;
 	/**/
@@ -206,4 +209,28 @@ nav ul li a:hover{
 	clear: both;
 }
 
+.header {
+	height: 50px;
+	display: flex;
+	align-items: center;
+	padding-left: 2rem;
+	background-color: #EEFAFF;
 
+	@media screen and (max-width: 767px) {
+		padding-left: 1rem;
+	}
+}
+
+.header__backButton {
+	border: 1px solid #ccc;
+	border-radius: 2rem;
+	background-color: #fff;
+	height: 35px;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	font-size: 0.9rem;
+	color: #3d3d3d;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+}
