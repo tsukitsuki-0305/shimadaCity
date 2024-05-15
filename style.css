@@ -8,7 +8,9 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'klee', 'Yu Mincho Light', 'YuMincho', 'Yu Mincho', '游明朝体', 'ヒラギノ明朝 ProN', 'Hiragino Mincho ProN', sans-serif;
+	font-family: 'Klee One', 'Yu Mincho Light', 'YuMincho', 'Yu Mincho', '游明朝体', 'ヒラギノ明朝 ProN', 'Hiragino Mincho ProN', sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 #container {
@@ -261,7 +263,7 @@ nav ul li a:hover {
 	}
 
 	header {
-		padding: 2rem 0 0 0;
+		padding: 1rem 0;
 		gap: 0.5rem;
 	}
 
